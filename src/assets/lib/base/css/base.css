@@ -1,0 +1,278 @@
+/*项目公共独有样式*/
+.el-dialog__body {
+  padding: 0 0.5rem !important;
+  ;
+}
+
+.el-form-item {
+  margin-bottom: 0 !important;
+  ;
+}
+
+.cmy-title-height {
+  height: 44px;
+  line-height: 44px;
+  font-weight: bold;
+}
+
+.cmy-bg-color-white {
+  background-color: white;
+}
+
+.cmy-bg-spill-over {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.cmy-icon {
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 50px;
+}
+
+.cmy-icon-hook {
+  background-image: url(../img/icon-hook.jpg);
+}
+
+/*从右到左蓝色渐变色*/
+
+.cmy-blue-bg-l-r {
+  background: -webkit-linear-gradient(90deg, #8fa6fc, #5e80ff);
+  /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(90deg, #8fa6fc, #5e80ff);
+  /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(90deg, #8fa6fc, #5e80ff);
+  /* Firefox 3.6 - 15 */
+  background: linear-gradient(90deg, #8fa6fc, #5e80ff);
+}
+
+
+/*图标样式*/
+
+.cmy-icon-del {
+  border-radius: 100px;
+  background-image: url(../img/icon_-.png);
+  color: white;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 20px;
+  height: 20px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.cmy-icon-add {
+  border-radius: 100px;
+  background-image: url(../img/icon_+.png);
+  color: white;
+  width: 20px;
+  height: 20px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+/*带标签的列表行高*/
+
+.cmy-list .cmy-list-item {
+  background-size: 20px auto;
+  background-position: left center;
+  background-repeat: no-repeat;
+  line-height: 50px;
+}
+
+/*项目公共独有样式结束*/
+
+/*通用样式开始*/
+
+/*定位*/
+
+.cmy-position-r {
+  position: relative;
+}
+
+/*内边距*/
+
+.cmy-padding-10 {
+  padding: 10px;
+}
+
+.cmy-padding-left-10 {
+  padding-left: 10px;
+}
+
+.cmy-padding-left-20 {
+  padding-left: 20px;
+}
+
+.cmy-padding-left-25 {
+  padding-left: 25px;
+}
+
+.cmy-padding-right-10 {
+  padding-right: 10px;
+}
+
+.cmy-padding-right-15 {
+  padding-right: 15px;
+}
+
+.cmy-padding-right-20 {
+  padding-right: 20px;
+}
+
+.cmy-padding-right-25 {
+  padding-right: 25px;
+}
+
+.cmy-padding-row-5 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.cmy-padding-row-10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.cmy-padding-row-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.cmy-padding-row-20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.cmy-padding-vertical-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.cmy-padding-vertical-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*外边距*/
+
+.cmy-margin-row-10 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/*边框*/
+
+.cmy-border-radius {
+  border-radius: 100px;
+}
+
+.cmy-border-radius-5 {
+  border-radius: 5px;
+}
+
+.cmy-border-radius-10 {
+  border-radius: 10px;
+}
+
+.cmy-border-1 {
+  border: 1px solid #797272;
+}
+
+.cmy-border-b-1 {
+  border-bottom: 1px solid #eeeeee;
+}
+
+.cmy-margin-b-1 {
+  margin-bottom: 1px;
+}
+
+.cmy-display-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cmy-flex-left {
+  justify-content: flex-start;
+}
+
+.cmy-flex-shrink-false {
+  flex-shrink: 0;
+}
+
+.cmy-flex-grow-true {
+  flex-grow: 1;
+}
+
+.cmy-position-relative {
+  position: relative;
+}
+
+
+/*弹出窗*/
+
+.cmy-alert-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.35;
+  background-color: #000000;
+}
+
+.cmy-alert-fixed {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+}
+
+.cmy-alert-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.cmy-alert-item {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.cmy-fixed-b {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+/*字体*/
+
+.cmy-font-size-22 {
+  font-size: 22px;
+}
+
+/* 输入框 */
+.cmy-input {
+  border: 1px solid #e3e3e3;
+  padding: 0 10px;
+  line-height: 0.8rem;
+  height: auto;
+  min-height: 1.7rem;
+  font-size: 0.6rem;
+  text-align: left;
+  width: 100%;
+}
+
+.el-message {
+  min-width: 90% !important;
+}
+.el-message-box{
+  width: 80% !important;
+  margin-top: 20% !important;
+}

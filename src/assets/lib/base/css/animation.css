@@ -1,0 +1,46 @@
+/*开始选中扩展动画效果*/
+
+@keyframes myfirst {
+	from {
+		background: red;
+	}
+	to {
+		background: yellow;
+	}
+}
+
+@-moz-keyframes myfirst
+/* Firefox */
+
+{
+	from {
+		background: red;
+	}
+	to {
+		background: yellow;
+	}
+}
+
+@-webkit-keyframes myfirst
+/* Safari 和 Chrome */
+
+{
+	from {
+		background: red;
+	}
+	to {
+		background: yellow;
+	}
+}
+
+@-o-keyframes myfirst
+/* Opera */
+
+{
+	from {
+		background: red;
+	}
+	to {
+		background: yellow;
+	}
+}
